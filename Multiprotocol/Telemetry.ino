@@ -302,7 +302,7 @@ void sportSendFrame()
 		case 1: //BATT
 			frame[2] = 0x04;
 			frame[3] = 0xf1;
-			frame[4] = RxBt;//a1;
+			frame[4] = RxBt;//A1;
 			break;								
 		default:
 			if(sport)
