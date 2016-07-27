@@ -285,7 +285,7 @@ void sportSendFrame()
 	uint8_t i;
 	sport_counter = (sport_counter + 1) %36;
 	
-	if(sport_counter<3)
+	if(sport_counter<2)
 	{
 		frame[0] = 0x98;
 		frame[1] = 0x10;
@@ -294,19 +294,12 @@ void sportSendFrame()
 	}
 	switch (sport_counter)
 	{
-		case 0:
-			frame[2] = 0x05;
-			frame[3] = 0xf1;
-			frame[4] = 0x20;//dummy values if swr 20230f00
-			frame[5] = 0x23;
-			frame[6] = 0x0F;
-			break;
-		case 1: // RSSI
+		case 0: // RSSI
 			frame[2] = 0x01;
 			frame[3] = 0xf1;
 			frame[4] = rssi;
 			break;
-		case 2: //BATT
+		case 1: //BATT
 			frame[2] = 0x04;
 			frame[3] = 0xf1;
 			frame[4] = RxBt;//a1;
