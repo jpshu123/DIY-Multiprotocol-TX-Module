@@ -288,6 +288,11 @@ There are currently some hardware issues with the first version of this 4in1 mod
  - NRF24L01 is forced to PA mode which prevents telemetry to work. There are currently no protocols using telemetry based on this RF chip.
 
 Based on the [Deviation forum](http://www.deviationtx.com/forum/7-development/5434-3in1-4in1-rf-module?start=280#46751) these issues will be solved in the upcoming version.
+Update:
+Bangood releases new board version with resistors already installed(serial mode) so it is not necessary anymore solder resitors.You need however to solder bridge on TX/RX pads.See pictures.
+![Screenshot](http://static.rcgroups.net/forums/attachments/6/2/9/8/9/0/a9154498-125-RFM-YF02_V1.0_front.jpg)
+![Screenshot](http://static.rcgroups.net/forums/attachments/6/2/9/8/9/0/a9154499-113-RFM-YF02_V1.0_back.jpg)
+![Screenshot](http://static.rcgroups.net/forums/attachments/6/2/9/8/9/0/a9182812-5-Taranis_serial.png)
 
 ###Schematic
 ![Screenshot](http://static.rcgroups.net/forums/attachments/4/0/8/5/8/3/a8443844-119-multiprotocol_diagram_rotary_serial_2.jpg)
