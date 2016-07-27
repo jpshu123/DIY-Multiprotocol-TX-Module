@@ -281,9 +281,13 @@ This module can be purchased [here](http://www.banggood.com/2_4G-CC2500-A7105-Fl
 
 To update the firmware of this module you have to solder a 6 pin header (top left) and use an USBASP like explained [below](https://github.com/pascallanger/DIY-Multiprotocol-TX-Module#upload-the-code-using-isp-in-system-programming). 
 
-If you want to enable serial mode for er9x/ersky9x/Taranis/..., you have to do [this mod](http://static.rcgroups.net/forums/attachments/4/0/8/5/8/3/a8895038-170-4in1%20module.jpg).
+If you want to enable serial mode for er9x/ersky9x/Taranis/..., you have to do this mod for
 
-There are currently some hardware issues with the first version of this 4in1 module:
+VERSION1 of 4 in 1 boeard
+
+![Screenshot](http://static.rcgroups.net/forums/attachments/4/0/8/5/8/3/a8895038-170-4in1%20module.jpg).
+
+There are currently some hardware issues with the first version(version1) of this 4in1 module:
  - A7105 RF is forced to PA mode which prevents telemetry to work. Hubsan is the only protocol using telemetry for battery voltage display.
  - NRF24L01 is forced to PA mode which prevents telemetry to work. There are currently no protocols using telemetry based on this RF chip.
 
