@@ -295,6 +295,7 @@ Based on the [Deviation forum](http://www.deviationtx.com/forum/7-development/54
 
 
 Update:
+### 4in1 module version2 board 
 Bangood releases new board version with resistors already installed(serial mode) so it is not necessary anymore solder resitors.You need however to solder bridge on TX/RX pads.See pictures.
 ![Screenshot](http://static.rcgroups.net/forums/attachments/6/2/9/8/9/0/a9154498-125-RFM-YF02_V1.0_front.jpg)
 ![Screenshot](http://static.rcgroups.net/forums/attachments/6/2/9/8/9/0/a9154499-113-RFM-YF02_V1.0_back.jpg)
