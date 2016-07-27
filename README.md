@@ -283,7 +283,7 @@ To update the firmware of this module you have to solder a 6 pin header (top lef
 
 If you want to enable serial mode for er9x/ersky9x/Taranis/..., you have to do this mod for
 
-VERSION1 of 4 in 1 boeard
+VERSION1 of 4 in 1 board
 
 ![Screenshot](http://static.rcgroups.net/forums/attachments/4/0/8/5/8/3/a8895038-170-4in1%20module.jpg).
 
